@@ -1,20 +1,21 @@
 #
-# Note: This rosinstall file will be used for the Jenkins build server. 
-#       Please add those repositories that shall be included in the 
+# Note: This rosinstall file will be used for the Jenkins build server.
+#       Please add those repositories that shall be included in the
 #       automated testing procedure as well as their dependencies. All
 #       packages should be compilable with only the common ROS tools.
 #
 
 # IAI environment and common stacks
-- git: {local-name: stacks/iai_maps, uri: 'git@github.com:code-iai/iai_maps.git'}
-- git: {local-name: stacks/iai_common_msgs, uri: 'git@github.com:code-iai/iai_common_msgs.git'}
-- git: {local-name: stacks/ias_common, uri: 'git@github.com:code-iai/ias_common.git'}
+- git: {local-name: iai_maps, uri: 'https://github.com:code-iai/iai_maps.git'}
+- git: {local-name: iai_common_msgs, uri: 'https://github.com:code-iai/iai_common_msgs.git'}
+- git: {local-name: ias_common, uri: 'https://github.com:code-iai/ias_common.git'}
 
 # KnowRob and related repositories
-- git: {local-name: stacks/knowrob, uri: 'git@github.com:knowrob/knowrob.git'}
+- git: {local-name: knowrob, uri: 'https://github.com:knowrob/knowrob.git'}
+- git: {local-name: knowrob_addons, uri: 'https://github.com:knowrob/knowrob_addons.git'}
 
 # CRAM
-#- git: {local-name: stacks/cram_core, uri: 'https://github.com/cram-code/cram_core.git'}
+#- git: {local-name: cram_core, uri: 'https://github.com/cram-code/cram_core.git'}
 
 # PRAC and related
 
