@@ -1,0 +1,34 @@
+#
+# Note: This file shall contain a setup suitable for students that are to
+#       use our software. Please do *not* include private repositories
+#       or those that have very specific purposes. Tutorial packages are
+#       welcome, however.
+#
+
+# IAI environment and common stacks
+- git: {local-name: stacks/iai_maps, uri: 'git@github.com:code-iai/iai_maps.git'}
+- git: {local-name: stacks/iai_common_msgs, uri: 'git@github.com:code-iai/iai_common_msgs.git'}
+- git: {local-name: stacks/ias_common, uri: 'git@github.com:code-iai/ias_common.git'}
+
+# KnowRob and related repositories
+- git: {local-name: stacks/knowrob, uri: 'git@github.com:knowrob/knowrob.git'}
+- git: {local-name: stacks/knowrob_tutorials, uri: 'git@github.com:code-iai/knowrob_tutorials.git'}
+- git: {local-name: stacks/knowrob_addons, uri: 'git@github.com:knowrob/knowrob_addons.git'}
+- git: {local-name: stacks/knowrob_gui, uri: 'git@github.com:knowrob/knowrob_gui.git'}
+
+# CRAM
+- git: {local-name: stacks/cram_core, uri: 'https://github.com/cram-code/cram_core.git'}
+- git: {local-name: stacks/cram_gazebo, uri: 'https://github.com/cram-code/cram_gazebo.git'}
+- git: {local-name: stacks/cram_highlevel, uri: 'https://github.com/cram-code/cram_highlevel.git'}
+- git: {local-name: stacks/cram_pr2, uri: 'https://github.com/cram-code/cram_pr2.git'}
+- git: {local-name: stacks/cram_physics, uri: 'https://github.com/cram-code/cram_physics.git'}
+
+# PRAC and related
+- git: {local-name: stacks/probcog, uri: 'https://github.com/opcode81/ProbCog.git'}
+
+
+# Perception components
+- git: {local-name: stacks/iai-uima, uri: 'https://github.com/code-iai/iai-uima.git'}
+- git: {local-name: stacks/entres, uri: 'https://github.com/code-iai/entres.git'}
+- git: {local-name: stacks/iai_perception, uri: 'https://github.com/code-iai/iai_perception.git'}
+
