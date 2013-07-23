@@ -14,6 +14,7 @@
 - git: {local-name: knowrob, uri: 'https://github.com/knowrob/knowrob.git'}
 - git: {local-name: knowrob_addons, uri: 'https://github.com/knowrob/knowrob_addons.git'}
 - git: {local-name: knowrob_gui, uri: 'https://github.com/knowrob/knowrob_gui.git'}
+- git: {local-name: knowrob_dev, uri: 'https://github.com/code-iai/knowrob_dev.git'}
 
 # CRAM
 #- git: {local-name: cram_core, uri: 'https://github.com/cram-code/cram_core.git'}
