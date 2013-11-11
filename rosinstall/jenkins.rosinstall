@@ -6,9 +6,9 @@
 #
 
 # IAI environment and common stacks
-- git: {local-name: iai_maps, uri: 'git@github.com:code-iai/iai_maps.git'}
-- git: {local-name: iai_common_msgs, uri: 'git@github.com:code-iai/iai_common_msgs.git'}
-- git: {local-name: ias_common, uri: 'git@github.com:code-iai/ias_common.git'}
+# - git: {local-name: iai_maps, uri: 'git@github.com:code-iai/iai_maps.git'}
+# - git: {local-name: iai_common_msgs, uri: 'git@github.com:code-iai/iai_common_msgs.git'}
+# - git: {local-name: ias_common, uri: 'git@github.com:code-iai/ias_common.git'}
 
 # KnowRob and related repositories
 - git: {local-name: knowrob, uri: 'git@github.com:knowrob/knowrob.git'}
